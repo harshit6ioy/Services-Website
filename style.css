@@ -1,0 +1,806 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+    font-family: "Prompt", sans-serif;
+
+}
+img{
+    object-fit: cover;
+}
+body{
+    margin: 0;
+}
+#header{
+    height: 80px;
+    background-color: #6433FF;
+}
+.container{
+    width: 1175px;
+    height: 100%;
+    margin: auto;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.nav{
+    width: 70%;
+    float: left;
+}
+.nav li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 17px;
+    padding-top: 0px;
+    margin-top: 10px;
+}
+.nav li:hover a{
+    color: orange;
+}
+.nav .hm a{
+    color: orange;
+}
+#banner{
+    height: 650px;
+    background-image: url(https://images.pexels.com/photos/2531709/pexels-photo-2531709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding-top: 12%;
+}
+#banner h1{
+    font-size: 3em;
+}
+#banner p{
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+#about{
+    height: 210px;
+    text-align: center;
+    
+}
+#about .ab{
+    float: left;
+    width: 30%;
+    margin-right: 3.33%;
+}
+#about h1,#about h3{
+    text-align: center;
+    color: #6433FF;
+}
+.ab img{
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+        }
+#projects{
+    height: 1220px;
+    background-color: #F3F3F3;
+    padding-top: 10px;
+}
+#projects .pr{
+    float: left;
+    width: 30%;
+    margin-right: 3.33%;
+}
+#projects .pr img{
+    width: 100%;
+    height: 300px;
+}
+#projects h1{
+    text-align: center;
+    color: #12B780;
+}
+#projects h3{
+    color: #12B780;
+}
+.pr img{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
+#services{
+    height: 210px;
+    text-align: center;
+    color: white;
+    background-image: url(images/website.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 40px;
+    /* margin-top: 60px; */
+}
+#services .sr{
+    width: 30%;
+    margin-right: 3.33%;
+    float: left;
+}
+#services h1{
+    margin-top: 0;
+}
+.sr img{
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+        }
+        #reviews{
+            height: 390px;
+            padding-top: 4px;
+            margin-top: 6px;
+        }
+    #reviews .xy{
+        width: 22%;
+        margin-right: 3%;
+        float: left;
+    }
+    h4{
+        color: grey;
+    }
+    .xy img{
+        margin-top: 20px;
+        width: 100%;
+        height: 200px;
+    }
+    #reviews h1{
+        text-align: center;
+        color: blue;
+        font-size: 50px;
+    }
+    #contact{
+        height: 280px;
+        margin-top: 280px;
+    }
+    #footer{
+        height: 300px;
+        background-color: #08536D;
+        color: white;
+        /* margin-top: 280px; */
+
+    }
+    #footer .ft{
+        width: 22%;
+        margin-right: 3%;
+        float: left;
+        margin-right: 10px;
+        padding-top: 20px;
+    }
+    #footer .ft3{
+        width: 31%;
+    }
+    #footer .ft2,#footer .ft4{
+        width: 13%;
+    }
+    .ft img{
+        height: 40px;
+        width: 40px;
+        margin-right: 4px;
+    }
+    .ft ul{
+        list-style-type: none;
+        padding-left: 0;
+        float: left;
+        margin-top: 0;
+        margin-right: 3%;
+        line-height: 22px;
+    }
+    .ft h3{
+        color: orange;
+    }
+    .ft .p1{
+        line-height: 22px;}
+        #breadcrum{
+            padding-top: 20px;
+            margin-left: 100px;
+            font-size: 25px;
+            height: 50px;
+            /* margin-bottom: 10px; */
+            padding-left: 10%;
+
+        }
+        #breadcrum a{
+            text-decoration: none;
+            color: orange;
+        }
+        #about1{
+            height: 550px;
+            padding-top: 30px;
+           
+        }
+        #about1 img{
+            height: 100%;
+            width: 100%;
+        }
+        #about1 .ab1{
+            width: 48%;
+            margin-right: 2%;
+            float: left;
+            font-size: 20px;
+        }
+        #about1 a{
+            background-color: #f3525a;
+            padding: 20px;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+        #about1 h1{
+            line-height: 45px;
+        }
+        #about1 p{
+            line-height: 28px; 
+            
+        }
+        #about2{
+            height: 400px;
+            text-align: center;
+            padding-top: 50px;
+        }
+        #about2 .xy1,#about2 .xy2{
+            float: left;
+            width: 23%;
+            margin-right: 2%;
+            color: white;
+            padding: 30px;
+        }
+        #about2 img{
+            height: 50px;
+            width: 50px;
+        }
+        #about2 a{
+            color: white;
+        }
+        #about2 .xy1{
+            background-color: #f3525a;
+        }
+        #about2 .xy2{
+            background-color: #172541;
+            transition: all 0.8s linear;
+        }
+        #about2 .xy2:hover{
+            background-color: #f3525a;
+           
+        }
+        #about3{
+            height: 600px;
+            display: flex;
+        }
+        #about3 .xz1{
+            width: 48%;
+            margin-right: 2%;
+            float: left;
+            padding-bottom: 20px;
+            margin-top: 10px;
+        }
+        #about3 .xz2{
+            display: flex;
+            height: 30%;
+            margin-bottom: 3.33%;
+
+        }
+        
+        #about3 .xz3,#about3 .xz4,#about3 .xz5{
+            width:30%;
+
+        }
+        #about3 .xz6,#about3 .xz7,#about3 .xz8{
+            width:70%;
+
+        }
+        #about3 img{
+            height: 100%;
+            width: 100%;
+            text-align: center;
+        }
+        #about3 .xz3 img,#about3 .xz4 img,#about3 .xz5 img{
+            width: 50px;
+            height: 50px;
+        }
+        #about3 h1:hover{
+            color:  #f3525a;
+        }
+        #banner1{
+            height: 500px;
+            background-image: url(https://images.pexels.com/photos/2531709/pexels-photo-2531709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding-top: 9%;
+            background-attachment: fixed;
+        }
+        #banner1 h1{
+            font-size: 3em;
+        }
+        #banner1 p{
+            font-size: 1.5em;
+            padding-top: 20px;
+        }
+        #solution
+{
+    background-color: #EEEEEE;
+    height: 650px;
+    text-align: center;
+    padding-top: 50px;
+}
+.sol
+{
+    width: 22%;
+    margin-right: 3%;
+    float: left;
+}
+.sol img
+{
+    width: 100%;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+.imgsec
+{
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+}
+.imgsec:hover img
+{
+    transform: scale(1.2);
+}
+.social
+{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    padding-top: 50%;
+    transform: rotateY(180deg) scale(0.5);
+    opacity: 0;
+    transition: all 0.5s;
+}
+.sol:hover .social
+{
+    transform: rotateY(0deg) scale(1);
+    opacity: 1;
+}
+.social ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.social li
+{
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 4px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    margin-right: 10px;
+}
+img{
+    object-fit: cover;
+}
+.social li a
+{
+    color: white;
+}
+.social li:hover
+{
+    background-color: white;
+}
+.social li:hover a
+{
+    color: orange;
+}
+.social li a img
+{
+    height: 20px;
+    width: 20px;
+}
+#contact1 h1{
+    text-align: center;
+    font-size: 35px;
+}
+#contact1{
+    height: 600px;
+    font-family: "Prompt", sans-serif;
+    font-weight: none;
+
+}
+#contact1 .gf,#contact1 .gf1{
+    float: left;
+}
+#contact1 .gf{
+    width: 60%;
+    margin-right: 3%;
+}
+#contact1 .gf1{
+    width: 35%;
+    margin-right: 2%;
+    font-size: 18px;
+}
+#contact1 img{
+    width: 35px;
+    height: 35px;
+    margin-right: 4px;
+}
+#contact1 input,#contact1 textarea{
+    padding: 10px;
+    font-size: 20px;
+}
+#contact1 .c1{
+    float:left;
+    height: 120px;
+    width: 49%;
+    margin-right: 2%;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+#contact1 .c2{
+    float:left;
+    height: 80px;
+    width: 49%;
+    /* margin-right: 2%; */
+    margin-bottom: 10px;
+}
+#contact1 .c3{
+    height: 80px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#contact1 .c4{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#contact1 button{
+    border: solid 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: #f3525a;
+    height: 70px;
+    width: 150px;
+    padding: 8px 12px;
+    font-size: 20px;
+    margin-left: 75%
+}
+#contact2{
+    height: 550px;
+    padding-top: 25px;
+}
+@media only screen and (min-width: 769px) and (max-width: 1199px){
+    #header .logo{
+        width: 20%;
+
+    }
+    #header .nav{
+        width: 80%;
+        font-size: 10px;
+    }
+    #header .nav ul li{
+        margin-right: 2%;
+    }
+    .nav li{
+        margin-top: 10px;
+    }
+    }
+    #reviews{
+        height: 500px;
+    }
+    .container
+    {
+        width: auto;
+        padding-left: 30px;
+    }
+    #banner,#banner1
+    {
+        height: 600px;
+        padding-top: 15%;
+    }
+    #about{
+        height: 535px;
+        padding-top: 25px;
+    }
+    #services
+    {
+        height: 600px;
+        padding-top: 25px;
+    }
+    #projects
+    {
+        height: 780px;
+        padding-top: 25px;
+    }
+    .pr img
+    {
+        object-fit: cover;
+        height: 1000px;
+    }
+    #reviews{
+        height: 1250px;
+        padding-top: 30px;
+    }
+    #reviews .xy{
+        width: 48%;
+        margin-right: 2%;
+    }
+    #reviews .xy img{
+        height: 280px;
+        width: 280px;
+        margin-left: 20%;
+    }
+    .ft2
+    {
+        width: 16%;
+    }
+    .ft3
+    {
+        width: 32%;
+    }
+    .ft4
+    {
+        width: 18%;
+    }
+    #footer
+    {
+        height: 420px;
+    }
+    #about1
+    {
+        /* height: 1050px; */
+    }
+    #about1 h1
+    {
+        font-size: 32px;
+        margin-top: 30px;
+    }
+    #breadcrumb .container,#about1 .container, #about2 .container,#solution .container
+    {
+        padding: 0px 150px;
+    }
+    #about1 .ab1
+    {
+        /* width: 100%; */
+    }
+
+    #about2
+    {
+        /* height: 700px; */
+    }
+    #about2 .xy1{
+        font-size: 15.75px;
+    }
+    #about2 .xy1,#about2 .xy2
+    {
+        width: 22%;
+        margin-right: 3%;
+        margin-bottom: 20px;
+    }
+    #about3{
+        height: 800px;
+    }
+
+    #solution
+    {
+        /* height: 1280px; */
+    }
+    #solution .sol
+    {
+        width: 22%;
+        margin-right: 3%;
+        margin-bottom: 20px;
+    }
+    #footer
+    {
+        height: 260px;
+    }
+    #footer .ft
+    {
+        height: 200px;
+    }
+    #footer .ft1,#footer .ft3
+    {
+        width: 23%;
+        margin-right: 2%;
+    }
+    #footer .ft2,#footer .ft4
+    {
+        width: 23%;
+        margin-right: 2%;
+    }
+
+
+
+
+@media only screen and (max-width:768px)     /* for small devices */
+{
+    .container
+    {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #header{
+        height: 390px;
+        padding-bottom: 5px;
+        
+    }
+    #header .logo{
+        
+        width: 100%;
+        text-align: center;
+        
+    }
+    #header .nav ul
+    {
+        margin: 0%;
+        padding: 0;
+        text-align: center;
+    }
+    #header .nav ul li{
+        display:list-item
+    }
+    #header .nav{
+        
+        width: 100%;
+        
+    }
+    #banner
+    {
+        height: 600px;
+        padding-top: 25%;
+    }
+    #banner h1
+    {
+        font-size: 2.1em;
+    }
+    #about{
+        height: 920px;
+    }
+    #projects{
+        height: 1400px;
+        padding-top: 45px;
+    }
+    #services
+    {
+        height: 880px;
+        padding-top: 40px;
+    }
+    
+    #about .ab,#projects .pr,#services .sr,#reviews .xy
+    {
+        width: 100%;
+    }
+
+    #projects
+    {
+        height: 1600px;
+        padding-top: 20px;
+        text-align: center;
+    }
+    #reviews
+    {
+        height: 2250px;
+        text-align: center;
+    }
+    #reviews .xy img{
+        height: 300px;
+        width: 300px;
+        margin-left: 0;
+    }
+    .pr img
+    {
+        object-fit: cover;       /* fill, contain, cover */
+        height: 275px;
+        
+    }
+    #footer
+    {
+        height: 460px;
+    }
+    #footer .ft
+    {
+        height: 200px;
+    }
+    #footer .ft1,#footer .ft3
+    {
+        width: 62%;
+        margin-right: 2%;
+    }
+    #footer .ft2,#footer .ft4
+    {
+        width: 36%;
+        margin-right: 0%;
+    }
+
+#contact1 .gf{
+    width: 100%;
+}
+#about1{
+    height: 450px;
+}
+#about1 .ab1{
+    width: 100%;
+    
+}
+#about1 .abc{
+    height: 700px;
+}
+#about2{
+    height: 1950px;
+    padding-top: 40px;
+}
+#about2 .xy1,#about2 .xy2{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#about3{
+    height: 1200px;
+}
+#about3 .xz1{
+    width: 100%;
+    margin-bottom: 30px;
+}
+#about3 .xyz{
+    height: 800px;
+    
+}
+#about3 .xyz img{
+    height: 500px;
+    width: 500px;
+    margin-left: 15%;
+}
+#solution
+{
+    height: 2530px;
+    padding-top: 35px;
+}
+#solution .sol
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#contact1{
+    height: 1150px;
+    padding-top: 25px;
+}
+#contact1 gf,#contact1 .gf1{
+    width: 100%;
+}
+#contact1 .c2{
+    float:left;
+    height: 120px;
+    width: 49%;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+}
+
+
+
+
+
+       
+    
+        
+
+        
